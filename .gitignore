@@ -1,0 +1,42 @@
+# --- segredos ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+
+# --- sistema ---
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.iml
+
+# --- node ---
+node_modules/
+npm-debug.log*
+dist/
+build/
+coverage/
+.next/
+*.tsbuildinfo
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- dados locais (não versionar base de cliente) ---
+*.sqlite
+*.sqlite3
+*.db
+data/local/
